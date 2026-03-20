@@ -94,7 +94,8 @@ object Form1: TForm1
     Top = 408
     Width = 75
     Height = 25
-    Caption = 'Sair'
+    Caption = '&Sair'
     TabOrder = 4
+    OnClick = Button3Click
   end
 end

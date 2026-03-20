@@ -34,3 +34,8 @@ void __fastcall TForm1::Button2Click(TObject *Sender)
     Edit1->SetFocus();
 }
 //---------------------------------------------------------------------------
+void __fastcall TForm1::Button3Click(TObject *Sender)
+{
+           Application->Terminate();
+}
+//---------------------------------------------------------------------------
